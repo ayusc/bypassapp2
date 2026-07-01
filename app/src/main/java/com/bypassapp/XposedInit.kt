@@ -13,10 +13,9 @@ class XposedInit : IXposedHookLoadPackage {
         private const val TARGET_PACKAGE = "com.ubercab.driver"
         private const val TAG = "[LYFT]"
         
-        // Legit values from the latest configuration
-        private const val LATEST_VERSION_CODE = 1782286115
-        private const val LATEST_VERSION_CODE_LONG = 1782286115L
-        private const val LATEST_VERSION_NAME = "2026.24.3.1782286115"
+        private const val LATEST_VERSION_CODE = 290803
+        private const val LATEST_VERSION_CODE_LONG = 290803L
+        private const val LATEST_VERSION_NAME = "4.585.10000"
     }
 
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
