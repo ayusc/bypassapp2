@@ -10,7 +10,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage
 class XposedInit : IXposedHookLoadPackage {
 
     companion object {
-        private const val TARGET_PACKAGE = "com.lyft.android.driver"
+        private const val TARGET_PACKAGE = "com.ubercab.driver"
         private const val TAG = "[LYFT]"
         
         // Legit values from the latest configuration
